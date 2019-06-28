@@ -23,4 +23,5 @@ Set5 Average：reconstruction PSNR = 32.44dB VS bicubic PSNR = 30.39dB
 Set14 Average: reconstruction PSNR = 29.05dB VS bicubic PSNR = 27.54dB  
 Image example:  
 ![image](https://raw.githubusercontent.com/chxy95/SRCNN/master/images/Comparison.png)  
-<img src = "https://raw.githubusercontent.com/chxy95/SRCNN/master/images/Comparison.png" width = 375>
+## Explanation
+The main reason for using two languages to do the project is because the different implementation of bicubic interpolation, which causes the broader difference of the results when using PSNR standard. 

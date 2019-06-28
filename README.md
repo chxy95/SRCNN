@@ -22,4 +22,4 @@ Use the ./model/weights.mat can get the result:
 Set5 Average：reconstruction PSNR = 32.44dB VS bicubic PSNR = 30.39dB  
 Set14 Average: reconstruction PSNR = 29.05dB VS bicubic PSNR = 27.54dB  
 Image example:
-![image](http://github.com/chxy95/SRCNN/blob/master/images/Comparison.png)
+![image](http://github.com/chxy95/SRCNN/raw/master/images/Comparison.png)

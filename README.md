@@ -18,6 +18,6 @@ python convert.py
 ```
 Use ./test_link/get_result.m to get the PSNR result and reconstruction RGB images.
 ## Result
-Use the ./model/weights.mat can get the result:
+Use the ./model/weights.mat can get the result:  
 Set5 Average：reconstruction PSNR = 32.44dB VS bicubic PSNR = 30.39dB  
 Set14 Average: reconstruction PSNR = 29.05dB VS bicubic PSNR = 27.54dB

@@ -1,0 +1,1 @@
+For store Pytorch checkpoint.

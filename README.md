@@ -4,7 +4,7 @@ The project is reproduction of the paper *Learning a Deep Convolutional Network 
 Matlab 2016  
 Pytorch 1.0.0  
 ## Explanation
-Some Matlab codes provided by the paper author, url: http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html.  
+Some Matlab codes provided by the paper author, url: http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html.  
 The main reason for using two languages to do the project is because the different implementation of bicubic interpolation, which causes the broader difference of the results when using PSNR standard. 
 ## Usage
 Use ./data_pro/generate_train.m to generate train.h5.  

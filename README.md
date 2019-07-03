@@ -1,13 +1,14 @@
 # SRCNN
 The project is reproduction of the paper *Learning a Deep Convolutional Network for Image Super-Resolution》(ECCV 2014)* by Pytorch.
-## Requirement
-Some Matlab codes provided by the paper author, url: http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html.  
-There are some captions for how to use that official codes to do data-preprocessing and testing in corresponding files.  
 ## Dependence
 Matlab 2016  
 Pytorch 1.0.0  
+## Explanation
+Some Matlab codes provided by the paper author, url: http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html.  
+The main reason for using two languages to do the project is because the different implementation of bicubic interpolation, which causes the broader difference of the results when using PSNR standard. 
 ## Usage
 Use ./data_pro/generate_train.m to generate train.h5.  
+Use ./data_pro/generate_test.m to generate test.h5.  
 Train by train.py:
 ```
 python train.py
@@ -23,5 +24,3 @@ Set5 Average：reconstruction PSNR = 32.44dB VS bicubic PSNR = 30.39dB
 Set14 Average: reconstruction PSNR = 29.05dB VS bicubic PSNR = 27.54dB  
 Image example:  
 <img src="https://raw.githubusercontent.com/chxy95/SRCNN/master/images/Comparison.png" width="500"/>
-## Explanation
-The main reason for using two languages to do the project is because the different implementation of bicubic interpolation, which causes the broader difference of the results when using PSNR standard. 

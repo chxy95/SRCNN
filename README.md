@@ -1,5 +1,5 @@
 # SRCNN
-The project is reproduction of the paper *Learning a Deep Convolutional Network for Image Super-Resolution》(ECCV 2014)* by Pytorch.
+The project is reproduction of the paper *《Learning a Deep Convolutional Network for Image Super-Resolution》(ECCV 2014)* by Pytorch.
 ## Dependence
 Matlab 2016  
 Pytorch 1.0.0  
